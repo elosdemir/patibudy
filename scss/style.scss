@@ -1,0 +1,255 @@
+$yesil:#00ccbc;
+$siyah:#000;
+$beyaz:#fff;
+$krem:#f8f9fa;
+$acikkrem:#f2f2f2;
+$kirmizi:#e2004f;
+$gri:#495057;
+$mor:#440063;
+$acikgri:#adb5bd;
+$koyuyesil:#05776e;
+#menu{
+    background: $yesil;
+    a{
+        color: $beyaz;
+        &:hover{
+            color: $krem;
+            text-decoration: none;
+        }
+    }
+}
+#click{
+    background: url('https://patibuddy.com/assets/img/landing-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    h1{
+        font-size: 50px;
+        color:$beyaz;
+        text-shadow: 2px 3px 0px #000;
+        margin-top: 250px !important;
+    }
+}
+.btn-purple{
+    background:$mor;
+    color: $beyaz !important;
+    padding: 10px;
+    &:hover{
+    color:$beyaz !important;
+    background: $kirmizi;
+    }
+}
+#referance{
+    color:$gri;
+    h3{
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing:2px;
+    }
+    h5{
+        line-height:2;
+        font-weight:300;
+    }
+    img{
+        width:150px;
+    }
+}
+#comport{
+    .spn-grey{
+    color: $acikgri;
+    }
+    .img-dog{
+    background: url('https://patibuddy.com/assets/img/landing-video-cover.jpg');
+    height: 307px;
+    width: 100%;
+    background-size: cover;
+    }
+    .accordion{
+        width:100%;
+    }
+    .fas:first-child{
+    margin-top: 120px;
+    font-size: 70px;
+    color: $beyaz;
+    &:hover{font-size: 60px;}
+    }
+    .margin-b{
+        margin-top: 60px;
+    }
+    .brdr-bttm{
+        border-bottom: 1px solid $acikgri;
+    }
+    h5 a{
+        color: $acikgri !important;
+    text-decoration: none;
+    &:hover{color: $gri}
+    }
+    .fas{
+        color: $acikgri;
+        &:hover{
+            color: $gri;
+        }
+    }
+    h5 {
+        .spn-1{
+            margin-left: 370px;
+        }
+        .spn-2{
+            margin-left: 227px;
+        }
+        .spn-3{
+            margin-left: 205px;
+        }
+    }
+    .card {
+        border:none;
+    }
+    .card-header{
+        background:none;
+    }
+    .card-header .btn-link{
+        color:$acikgri;
+        font-weight:500;
+        letter-spacing:1px;
+        text-decoration: none;
+        &:hover{
+            color:$siyah;
+        }
+        &:active{
+            color:$siyah;
+                            
+            
+        }
+        
+    }
+
+}
+#family{
+    background: $acikkrem;
+    img{
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+    }
+}
+#how{
+    p:first-child{
+        font-size: 60px;
+    }
+    .card{
+        padding: 50px;
+        height: 450px;
+        &:hover{
+        box-shadow: 1px 1px  20px 1px lightgray
+        }
+    }
+}
+#service{
+    background: $acikkrem;
+    p:first-child{
+        font-size: 35px;
+    }
+    a{
+        color: $yesil; 
+        margin-left: 20px;
+        &:hover{
+            color: $koyuyesil;
+        }
+    }
+    h6{
+        color: $acikgri;
+    } 
+    .p-big{
+        font-size: 60px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .card a{
+        color: $yesil;
+        text-decoration: none;
+        &:hover{
+            color: $koyuyesil;
+        }
+    }
+    .card-title{
+        color: $gri;
+    }
+    .card-text{
+        color: $acikgri;
+    }
+}
+#blog {
+    background: $acikkrem;
+    font-size: 40px;
+    color:$siyah;
+}
+#footer{
+    background: $gri;
+    color: #adb5bd;
+    h6{
+        color: $beyaz;
+    }
+    .nav .nav-link{
+        color: $acikgri;
+        &:hover{
+            color: $beyaz;
+        }
+       
+    }
+    ul li{
+        list-style-type: none !important;
+        line-height: 0.5;
+    }
+    .lh-1 p{
+        line-height: 0.5;
+    }
+    .lh-1 a{
+        color: $acikgri;
+        text-decoration: none;
+    }
+    
+}
+.support-btn{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: $mor;
+    color: $beyaz;
+    padding: 10px 20px;
+    border-radius: 20px;
+    &:hover{
+        background: $kirmizi;
+    }
+
+}
+@media screen and (max-width:768px)
+{
+    #click h1{
+        font-size: 50px;
+        color: #fff;
+        text-shadow: 2px 3px 0px #000;
+        margin-top: 60px !important;
+    }
+    #referance{
+        h3{
+            line-height:1;
+        }
+        .col-md-6{
+            width: 50%;
+        }
+        .col-sm-6{
+            width:50%;
+        }
+    }
+    .max-width{
+        max-width: 85px !important;
+    }
+    #service a{
+        display: block;
+    }
+    #footer .duzen li{
+        display: block;
+        width: 100%;
+    }
+}

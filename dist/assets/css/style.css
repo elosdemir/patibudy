@@ -1,0 +1,194 @@
+#menu {
+  background: #00ccbc; }
+  #menu a {
+    color: #fff; }
+    #menu a:hover {
+      color: #f8f9fa;
+      text-decoration: none; }
+
+#click {
+  background: url("https://patibuddy.com/assets/img/landing-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+  #click h1 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 3px 0px #000;
+    margin-top: 250px !important; }
+
+.btn-purple {
+  background: #440063;
+  color: #fff !important;
+  padding: 10px; }
+  .btn-purple:hover {
+    color: #fff !important;
+    background: #e2004f; }
+
+#referance {
+  color: #495057; }
+  #referance h3 {
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: 2px; }
+  #referance h5 {
+    line-height: 2;
+    font-weight: 300; }
+  #referance img {
+    width: 150px; }
+
+#comport .spn-grey {
+  color: #adb5bd; }
+
+#comport .img-dog {
+  background: url("https://patibuddy.com/assets/img/landing-video-cover.jpg");
+  height: 307px;
+  width: 100%;
+  background-size: cover; }
+
+#comport .accordion {
+  width: 100%; }
+
+#comport .fas:first-child {
+  margin-top: 120px;
+  font-size: 70px;
+  color: #fff; }
+  #comport .fas:first-child:hover {
+    font-size: 60px; }
+
+#comport .margin-b {
+  margin-top: 60px; }
+
+#comport .brdr-bttm {
+  border-bottom: 1px solid #adb5bd; }
+
+#comport h5 a {
+  color: #adb5bd !important;
+  text-decoration: none; }
+  #comport h5 a:hover {
+    color: #495057; }
+
+#comport .fas {
+  color: #adb5bd; }
+  #comport .fas:hover {
+    color: #495057; }
+
+#comport h5 .spn-1 {
+  margin-left: 370px; }
+
+#comport h5 .spn-2 {
+  margin-left: 227px; }
+
+#comport h5 .spn-3 {
+  margin-left: 205px; }
+
+#comport .card {
+  border: none; }
+
+#comport .card-header {
+  background: none; }
+
+#comport .card-header .btn-link {
+  color: #adb5bd;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none; }
+  #comport .card-header .btn-link:hover {
+    color: #000; }
+  #comport .card-header .btn-link:active {
+    color: #000; }
+
+#family {
+  background: #f2f2f2; }
+  #family img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%; }
+
+#how p:first-child {
+  font-size: 60px; }
+
+#how .card {
+  padding: 50px;
+  height: 450px; }
+  #how .card:hover {
+    box-shadow: 1px 1px  20px 1px lightgray; }
+
+#service {
+  background: #f2f2f2; }
+  #service p:first-child {
+    font-size: 35px; }
+  #service a {
+    color: #00ccbc;
+    margin-left: 20px; }
+    #service a:hover {
+      color: #05776e; }
+  #service h6 {
+    color: #adb5bd; }
+  #service .p-big {
+    font-size: 60px; }
+  #service span {
+    font-size: 20px; }
+  #service .card a {
+    color: #00ccbc;
+    text-decoration: none; }
+    #service .card a:hover {
+      color: #05776e; }
+  #service .card-title {
+    color: #495057; }
+  #service .card-text {
+    color: #adb5bd; }
+
+#blog {
+  background: #f2f2f2;
+  font-size: 40px;
+  color: #000; }
+
+#footer {
+  background: #495057;
+  color: #adb5bd; }
+  #footer h6 {
+    color: #fff; }
+  #footer .nav .nav-link {
+    color: #adb5bd; }
+    #footer .nav .nav-link:hover {
+      color: #fff; }
+  #footer ul li {
+    list-style-type: none !important;
+    line-height: 0.5; }
+  #footer .lh-1 p {
+    line-height: 0.5; }
+  #footer .lh-1 a {
+    color: #adb5bd;
+    text-decoration: none; }
+
+.support-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #440063;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px; }
+  .support-btn:hover {
+    background: #e2004f; }
+
+@media screen and (max-width: 768px) {
+  #click h1 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 3px 0px #000;
+    margin-top: 60px !important; }
+  #referance h3 {
+    line-height: 1; }
+  #referance .col-md-6 {
+    width: 50%; }
+  #referance .col-sm-6 {
+    width: 50%; }
+  .max-width {
+    max-width: 85px !important; }
+  #service a {
+    display: block; }
+  #footer .duzen li {
+    display: block;
+    width: 100%; } }
